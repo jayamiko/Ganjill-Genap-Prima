@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.side-left{
+    background-color: skyblue;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.side-left #number{
+    height: 40px;
+    width: 300px;
+}
+
+.btn_odd, .btn_even, .btn_prime{
+    margin: 20px 10px;
+    height: 25px;
+    width: 75px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn_odd{
+    background-color: red;
+}
+.btn_even{
+    background-color: navy;
+}
+
+.btn_prime{
+    background-color:rgb(241, 133, 151);
+}
+
+.side-right{
+    background-image: url(math.jpg);
+    width: 65%;
+    justify-content: center;
+}
+
+.side-right #form-result{
+    height: fit-content;
+    width: 60%;
+    margin: 100px 200px;
+    border: solid 2px black;
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.side-right #result{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}

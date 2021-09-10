@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Deret bilangan</title>
+    <link rel="stylesheet" href="bilangan.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="side-left">
+            <header>
+                <h1>Odd | Even | Prime</h1>
+                <input type="number" placeholder="Enter Numbers" id="number"><br>
+                <button class="btn_odd" onclick="numberOdd()">Odd</button>
+                <button class="btn_even" onclick="numberEven()">Even</button>
+                <button class="btn_prime" onclick="numberPrime()">Prime</button>
+            </header>
+        </div>
+        <div class="side-right">
+            <div id="form-result">
+                <h1 id="status">STATUS</h1>
+                <div id="result">
+                    - -
+                </div>
+
+                <button onclick="reset()">RESET</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Js External -->
+    <script src="bilangan.js"></script>
+</body>
+
+</html>
